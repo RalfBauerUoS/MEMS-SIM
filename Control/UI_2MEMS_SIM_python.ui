@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>774</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSlider" name="sliderM1_phase">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>190</y>
+      <width>22</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-10000</number>
+    </property>
+    <property name="maximum">
+     <number>10000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderM1_x">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>190</y>
+      <width>22</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderM1_y">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>190</y>
+      <width>22</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M1_phase">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>360</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-10000</number>
+    </property>
+    <property name="maximum">
+     <number>10000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M1_x">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>360</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M1_y">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>360</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M1_1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M1_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M1_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M1_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M1_1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M1 - 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M1_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M1 - 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M1_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M1 - 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M1_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M1 - 4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M1_phase">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M1 - phase</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M1_x">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>160</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M1 - x</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M1_y">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>160</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M1 - y</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M2_1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_x">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>160</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M2 - x</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderM2_x">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>190</y>
+      <width>22</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M2_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_phase">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M2 - phase</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M2 - 2</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderM2_phase">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>190</y>
+      <width>22</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-10000</number>
+    </property>
+    <property name="maximum">
+     <number>10000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M2_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M2_y">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>360</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M2_x">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>360</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M2 - 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_y">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>160</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M2 - y</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M2_phase">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>360</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-10000</number>
+    </property>
+    <property name="maximum">
+     <number>10000</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_M2_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>110</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+    <property name="maximum">
+     <number>50000</number>
+    </property>
+    <property name="value">
+     <number>25000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M2 - 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M2 - 4</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderM2_y">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>190</y>
+      <width>22</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-25000</number>
+    </property>
+    <property name="maximum">
+     <number>25000</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>361</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Automated capture</string>
+    </property>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>331</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Single Position automated</string>
+      </attribute>
+      <widget class="QCheckBox" name="checkBox_pos1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>70</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Position 1</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_pos2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>70</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Position 2</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_pos3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>70</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Position 3</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Auto1Pos">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>171</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Start automated run</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_frameNo1Pos">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>81</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>999</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_frameNo1Pos">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Number of frames</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_ExposureTime1Pos">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>130</y>
+         <width>81</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>999</number>
+       </property>
+       <property name="value">
+        <number>45</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_WaitTime1Pos">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>130</y>
+         <width>81</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>999</number>
+       </property>
+       <property name="value">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ExposureTime1Pos">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>110</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Exposure time (ms)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_WaitTime1Pos">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>110</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Wait time (ms)</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>3 Positions automated</string>
+      </attribute>
+      <widget class="QSpinBox" name="spinBox_WaitTime3Pos">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>130</y>
+         <width>81</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>999</number>
+       </property>
+       <property name="value">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_frameNo3Pos">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>81</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>999</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_frameNo3Pos">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Number of frames</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Auto3Pos">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>171</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Start automated run</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ExposureTime3Pos">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>110</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Exposure time (ms)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_WaitTime3Pos">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>110</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Wait time (ms)</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_ExposureTime3Pos">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>130</y>
+         <width>81</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>999</number>
+       </property>
+       <property name="value">
+        <number>45</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3Pos">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>All 3 positions</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>721</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>9</number>
+    </property>
+    <property name="columnCount">
+     <number>8</number>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>85</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>P1-1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P1-2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P1-3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P2-1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P2-2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P2-3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P3-1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P3-2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>P3-3</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>M1-1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M1-2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M1-3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M1-4</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M2-1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M2_1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M2-3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M2-4</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLineEdit" name="portNameText">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="baudRateText">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="connectArduino">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect to Arduino</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="disconnectArduino">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disconnect Arduino</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="connectedBtn">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>30</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>connected</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_close">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_receivedSerial">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>30</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Port">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Arduino Port</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Baudrate">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Baudrate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Baudrate_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>10</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Received Serial string</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_saveTable">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>360</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save Table</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_openTable">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open Table</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP1_1">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>460</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P1-1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP1_2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>490</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P1-2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP1_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>520</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P1-3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP2_1">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>550</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P2-1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP2_2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>580</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P2-2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP2_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>610</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P2-3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP3_1">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>640</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P3-1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP3_2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>670</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P3-2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_setP3_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>700</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set P3-3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_5">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>430</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP1_1">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>460</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P1-1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP1_2">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>490</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P1-2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP1_3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>520</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P1-3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP2_1">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>550</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P2-1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP2_2">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>580</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P2-2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP2_3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>610</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P2-3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP3_1">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>640</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P3-1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP3_2">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>670</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P3-2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_moveP3_3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>700</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move P3-3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_openTableGreen660">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>300</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open 660</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_openTableGreen550">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open 550</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_openTableGreen440">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>360</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open 440</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_openTableGreen330">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>390</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open 330</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_M2_6">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>430</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set to current Pos</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>569</x>
+      <y>290</y>
+      <width>131</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Green</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>290</y>
+      <width>121</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Blue</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_openTableBlue660">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open 660</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_openTableBlue550">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open 550</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_openTableBlue440">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open 440</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_openTableBlue330">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open 330</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>groupBox_2</zorder>
+   <zorder>sliderM1_phase</zorder>
+   <zorder>sliderM1_x</zorder>
+   <zorder>sliderM1_y</zorder>
+   <zorder>spinBox_M1_phase</zorder>
+   <zorder>spinBox_M1_x</zorder>
+   <zorder>spinBox_M1_y</zorder>
+   <zorder>spinBox_M1_1</zorder>
+   <zorder>spinBox_M1_2</zorder>
+   <zorder>spinBox_M1_3</zorder>
+   <zorder>spinBox_M1_4</zorder>
+   <zorder>label_M1_1</zorder>
+   <zorder>label_M1_2</zorder>
+   <zorder>label_M1_3</zorder>
+   <zorder>label_M1_4</zorder>
+   <zorder>label_M1_phase</zorder>
+   <zorder>label_M1_x</zorder>
+   <zorder>label_M1_y</zorder>
+   <zorder>spinBox_M2_1</zorder>
+   <zorder>label_M2_x</zorder>
+   <zorder>sliderM2_x</zorder>
+   <zorder>spinBox_M2_4</zorder>
+   <zorder>label_M2_phase</zorder>
+   <zorder>label_M2_2</zorder>
+   <zorder>sliderM2_phase</zorder>
+   <zorder>spinBox_M2_3</zorder>
+   <zorder>spinBox_M2_y</zorder>
+   <zorder>spinBox_M2_x</zorder>
+   <zorder>label_M2_1</zorder>
+   <zorder>label_M2_y</zorder>
+   <zorder>spinBox_M2_phase</zorder>
+   <zorder>spinBox_M2_2</zorder>
+   <zorder>label_M2_3</zorder>
+   <zorder>label_M2_4</zorder>
+   <zorder>sliderM2_y</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>portNameText</zorder>
+   <zorder>baudRateText</zorder>
+   <zorder>connectArduino</zorder>
+   <zorder>disconnectArduino</zorder>
+   <zorder>connectedBtn</zorder>
+   <zorder>pushButton_close</zorder>
+   <zorder>lineEdit_receivedSerial</zorder>
+   <zorder>label_Port</zorder>
+   <zorder>label_Baudrate</zorder>
+   <zorder>label_Baudrate_2</zorder>
+   <zorder>pushButton_saveTable</zorder>
+   <zorder>pushButton_openTable</zorder>
+   <zorder>pushButton_setP1_1</zorder>
+   <zorder>pushButton_setP1_2</zorder>
+   <zorder>pushButton_setP1_3</zorder>
+   <zorder>pushButton_setP2_1</zorder>
+   <zorder>pushButton_setP2_2</zorder>
+   <zorder>pushButton_setP2_3</zorder>
+   <zorder>pushButton_setP3_1</zorder>
+   <zorder>pushButton_setP3_2</zorder>
+   <zorder>pushButton_setP3_3</zorder>
+   <zorder>label_M2_5</zorder>
+   <zorder>pushButton_moveP1_1</zorder>
+   <zorder>pushButton_moveP1_2</zorder>
+   <zorder>pushButton_moveP1_3</zorder>
+   <zorder>pushButton_moveP2_1</zorder>
+   <zorder>pushButton_moveP2_2</zorder>
+   <zorder>pushButton_moveP2_3</zorder>
+   <zorder>pushButton_moveP3_1</zorder>
+   <zorder>pushButton_moveP3_2</zorder>
+   <zorder>pushButton_moveP3_3</zorder>
+   <zorder>pushButton_openTableGreen660</zorder>
+   <zorder>pushButton_openTableGreen550</zorder>
+   <zorder>pushButton_openTableGreen440</zorder>
+   <zorder>pushButton_openTableGreen330</zorder>
+   <zorder>label_M2_6</zorder>
+   <zorder>groupBox_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>947</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>spinBox_M1_phase</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sliderM1_phase</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_M1_x</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sliderM1_x</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_M1_y</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sliderM1_y</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>210</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderM1_x</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_M1_x</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>341</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderM1_phase</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_M1_phase</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>341</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderM1_y</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_M1_y</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>190</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderM2_phase</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_M2_phase</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>320</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>320</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderM2_x</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_M2_x</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderM2_y</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_M2_y</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>460</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>460</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_M2_phase</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sliderM2_phase</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>320</x>
+     <y>391</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>320</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_M2_x</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sliderM2_x</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>391</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_M2_y</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sliderM2_y</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>460</x>
+     <y>391</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>460</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
