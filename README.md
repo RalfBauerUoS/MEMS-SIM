@@ -8,7 +8,7 @@ Additionally there are 3D-designs, a basic control code specifically tailored to
 ## MEMS-SIM design
 The below 3D-schematic shows the overall setup, excluting the lasers and sample stage.
 
-![3D design overview](https://user-images.githubusercontent.com/96420893/190105034-b82ab142-a266-4d94-a616-d9037ce25105.png)
+![3D design overview](https://github.com/RalfBauerUoS/MEMS-SIM/blob/main/3D%20design%20MEMS-SIM/3D%20design%20overview%202.png)
 
 The 3D parts and full assembly of the shown setup are available in Autodesk Inventor format under the [3D design MEMS-SIM folder]
 
