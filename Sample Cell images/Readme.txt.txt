@@ -1,0 +1,2 @@
+The folders contain images of a BPAE cell slide using both a 473nm laser (blue channel) and a 532nm laser (orange channel).
+Each sub-folder contains a single excitation colour and SIM grating period, with a raw image stack with 2 time pionts and 3 grating orientations and phases each "Colour_xyz_3_MMStack_Default.ome.tiff", a 512x512 cropped area of the raw image stack "Colour_xyz_3_cropped" and a fairSIM processed stack of the cropped area "Colour_xyz_cropped_WienerFairSIM".
